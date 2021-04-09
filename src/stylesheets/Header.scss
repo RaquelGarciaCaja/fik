@@ -1,0 +1,62 @@
+@import "./reset.scss";
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+
+  &__menu {
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+  }
+  &__title {
+    height: 100px;
+    width: 100px;
+  }
+
+  &__containerProducts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &__input {
+    display: none;
+    @media all and(min-width:768px) {
+      display: flex;
+      outline: 0;
+      border-width: 0 0 2px;
+      border-color: black;
+      width: 55px;
+      text-transform: uppercase;
+      margin: 8px;
+      &::placeholder {
+        color: black;
+        font-weight: bold;
+        letter-spacing: 0.5px;
+      }
+    }
+    @media all and(min-width:1200px) {
+      display: none;
+    }
+  }
+  &__login {
+    display: none;
+    @media all and(min-width:768px) {
+      display: flex;
+      text-transform: uppercase;
+      margin: 15px;
+    }
+  }
+  &__containerShopping {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__items {
+    padding-left: 5px;
+    font-size: 12px;
+  }
+}

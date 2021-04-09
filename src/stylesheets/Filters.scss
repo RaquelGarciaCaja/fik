@@ -1,0 +1,36 @@
+@import "./reset.scss";
+
+.main {
+  &__containerText {
+    display: flex;
+    flex-direction: column;
+    @media all and (min-width: 768px) {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+  &__mainTitle {
+    text-transform: uppercase;
+    padding-bottom: 15px;
+    text-align: center;
+    font-size: 15px;
+  }
+  &__form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__name {
+    text-transform: uppercase;
+  }
+
+  @media all and (min-width: 768px) {
+    &__name,
+    &__labelOptions {
+      padding-left: 20px;
+    }
+  }
+  &__color {
+    margin-right: 5px;
+  }
+}

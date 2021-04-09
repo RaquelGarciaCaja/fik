@@ -1,0 +1,58 @@
+[
+  {
+    "id": "1",
+    "name": "Bottega Veneta",
+    "description": "Bottega Veneta bold oval femenine havana sunglasses",
+    "price": "270,00 EUR",
+    "color": "1"
+  },
+  {
+    "id": "2",
+    "name": "Bottega Veneta",
+    "description": "Bottega Veneta bold oval black sunglasses",
+    "price": "270,00 EUR",
+    "color": "1"
+  },
+  {
+    "id": "3",
+    "name": "Gucci",
+    "description": "Gucci squared havana violet acetate sunglasses",
+    "price": "260,00 EUR",
+    "color": "2"
+  },
+  {
+    "id": "4",
+    "name": "Gucci",
+    "description": "Gucci squared havana acetate sunglasses",
+    "price": "260,00 EUR",
+    "color": "2"
+  },
+  {
+    "id": "5",
+    "name": "Gucci",
+    "description": "Gucci oversized round havana femenine sunglasses",
+    "price": "290,00 EUR",
+    "color": "2"
+  },
+  {
+    "id": "6",
+    "name": "Gucci",
+    "description": "Gucci oversized vintage burgundy sunglasses",
+    "price": "290,00 EUR",
+    "color": "3"
+  },
+  {
+    "id": "7",
+    "name": "Gucci",
+    "description": "Gucci black car-eye sunglasses with matalasse temple",
+    "price": "280,00 EUR",
+    "color": "3"
+  },
+  {
+    "id": "8",
+    "name": "Gucci",
+    "description": "Gucci black sunglasses with matalasse temple",
+    "price": "280,00 EUR",
+    "color": "3"
+  }
+]

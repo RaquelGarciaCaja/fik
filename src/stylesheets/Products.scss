@@ -1,0 +1,190 @@
+@import "./reset.scss";
+
+.main {
+  &__container {
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    @media all and (min-width: 768px) {
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: repeat(6, 1fr);
+      gap: 20px;
+    }
+    @media all and (min-width: 1200px) {
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+    }
+  }
+  &__containerImg {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 20px;
+  }
+
+  &__text {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0 0 0;
+  }
+  &__containerImg1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    @media all and (min-width: 768px) {
+      grid-row-start: 1;
+      grid-row-end: 2;
+    }
+    @media all and (min-width: 1200px) {
+      grid-row-start: 1;
+      grid-row-end: 2;
+    }
+  }
+  &__containerImg2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    @media all and (min-width: 768px) {
+      grid-row-start: 1;
+      grid-row-end: 2;
+    }
+    @media all and (min-width: 1200px) {
+      grid-row-start: 1;
+      grid-row-end: 2;
+    }
+  }
+  &__containerImg3 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    @media all and (min-width: 768px) {
+      grid-column-start: 4;
+      grid-column-end: 5;
+      grid-row-start: 1;
+      grid-row-end: 2;
+    }
+    @media all and (min-width: 1200px) {
+      display: none;
+    }
+  }
+  &__containerImg4 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    @media all and (min-width: 768px) {
+      grid-column-start: 1;
+      grid-column-end: 3;
+      grid-row-start: 2;
+      grid-row-end: 4;
+    }
+    @media all and (min-width: 1200px) {
+      grid-column-start: 3;
+      grid-column-end: 4;
+      grid-row-start: 1;
+      grid-row-end: 2;
+    }
+  }
+  &__containerImg5 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    @media all and (min-width: 768px) {
+      grid-column-start: 4;
+      grid-column-end: 5;
+      grid-row-start: 2;
+      grid-row-end: 3;
+    }
+    @media all and (min-width: 1200px) {
+      grid-column-start: 4;
+      grid-column-end: 5;
+      grid-row-start: 1;
+      grid-row-end: 2;
+    }
+  }
+  &__containerImg6 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    @media all and (min-width: 768px) {
+      grid-column-start: 1;
+      grid-column-end: 2;
+      grid-row-start: 4;
+      grid-row-end: 5;
+    }
+    @media all and (min-width: 1200px) {
+      grid-column-start: 1;
+      grid-column-end: 2;
+      grid-row-start: 2;
+      grid-row-end: 3;
+    }
+  }
+  &__containerImg7 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    @media all and (min-width: 768px) {
+      grid-column-start: 3;
+      grid-column-end: 4;
+      grid-row-start: 4;
+      grid-row-end: 5;
+    }
+    @media all and (min-width: 1200px) {
+      display: none;
+    }
+  }
+  &__containerImg8 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 7;
+    grid-row-end: 9;
+    @media all and (min-width: 768px) {
+      grid-column-start: 2;
+      grid-column-end: 5;
+      grid-row-start: 5;
+      grid-row-end: 7;
+    }
+    @media all and (min-width: 1200px) {
+      display: none;
+    }
+  }
+
+  &__img {
+    height: 200px;
+    @media all and (min-width: 768px) {
+      height: 250px;
+    }
+    @media all and (min-width: 1200px) {
+      height: 390px;
+    }
+  }
+  &__title {
+    font-size: 12px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: flex-start;
+  }
+  &__description {
+    font-size: 9px;
+    padding-top: 3px;
+  }
+  &__price {
+    font-size: 12px;
+    padding-top: 10px;
+  }
+}
+
+.imgMovil {
+  width: 280px;
+  height: 500px;
+  @media all and (min-width: 768px) {
+    width: 400px;
+    height: 610px;
+  }
+  @media all and (min-width: 1200px) {
+    width: 260px;
+    height: 390px;
+  }
+}
